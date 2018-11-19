@@ -50,7 +50,7 @@ class Song
     song_info=filename.split(" - ")
     song_name=song_info[1]
     song_artist=[0]
-    new_song=self.class.create_by_name(song_name)
+    new_song=self.create_by_name(song_name)
     new_song.artist=song_artist
     new_song
   end
