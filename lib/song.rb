@@ -26,5 +26,7 @@ class Song
   end
   def create_from_filename
   end
+  def destroy_all
+  end
 
 end
