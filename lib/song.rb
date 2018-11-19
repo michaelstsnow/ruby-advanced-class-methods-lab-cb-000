@@ -16,10 +16,10 @@ class Song
     new_song
   end
 
-  def new_by_name(name)
+  def self.new_by_name(name)
   end
 
-  def create_by_name(name)
+  def self.create_by_name(name)
   end
 
   def find_by_name
