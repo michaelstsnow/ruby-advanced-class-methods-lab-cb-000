@@ -30,7 +30,7 @@ class Song
     new_song
   end
 
-  def self.find_by_name
+  def self.find_by_name(name)
     @@all.find{|song_name| song.name=song_name}
   end
 
