@@ -67,7 +67,7 @@ class Song
   end #what doe they want by the difference between new and create? Do they just want one to create it and the other to save it?
 
   def self.destroy_all
-    self.all
+    self.all.clear
   end
 
 end
