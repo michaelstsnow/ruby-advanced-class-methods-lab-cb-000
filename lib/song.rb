@@ -64,7 +64,7 @@ class Song
     new_song.artist_name=song_info[0]
     new_song.save
     new_song
-  end
+  end #what doe they want by the difference between new and create? Do they just want one to create it and the other to save it? 
 
   def destroy_all
   end
