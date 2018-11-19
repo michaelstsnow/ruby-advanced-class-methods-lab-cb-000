@@ -34,7 +34,12 @@ class Song
     @@all.find{|song_name| song.name=song_name}
   end
 
-  def find_or_create_by_name(name)
+  def self.find_or_create_by_name(name)
+    if self.class.find_by_name(name)
+      self.class.find_by_name(name)
+    else
+      self.class.create_by_name(name)
+    end
   end
 
   def alphabetical
