@@ -17,14 +17,9 @@ class Song
   end
 
   def new_by_name(name)
-    new_song.create
-    new_song.name=name
-    new_song
   end
 
   def create_by_name(name)
-    new_song.new_by_name(name)
-    new_song.save
   end
 
   def find_by_name
