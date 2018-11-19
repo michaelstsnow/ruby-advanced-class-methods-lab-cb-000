@@ -43,7 +43,7 @@ class Song
   end
 
   def self.alphabetical
-    self.sort_by(:name)
+    self.sort_by{|song| song.name}
   end
 
   def new_from_filename
