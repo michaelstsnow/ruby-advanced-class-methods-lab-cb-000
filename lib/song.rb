@@ -22,5 +22,9 @@ class Song
   end
   def alphabetical
   end
+  def new_from_filename
+  end
+  def create_from_filename
+  end
 
 end
