@@ -11,20 +11,21 @@ class Song
   end
 
   def create
-    self.new
+    new_song=self.new
+    new_song
   end
-  
+
   def new_by_name(name)
     new_song.create
     new_song.name=name
     new_song
   end
-  
+
   def create_by_name(name)
     new_song.new_by_name(name)
     new_song.save
   end
-  
+
   def find_by_name
   end
   def find_or_create_by_name
