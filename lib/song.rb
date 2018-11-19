@@ -52,6 +52,7 @@ class Song
     new_song.name=song_info[1]
     new_song.artist_name=song_info[0]
     new_song.save
+    new_song
   end
 
   def create_from_filename
